@@ -1,0 +1,3 @@
+#!/bin/bash
+
+(pebble rm $1 --phone $2 || true)

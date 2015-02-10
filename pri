@@ -1,5 +1,4 @@
 #!/bin/bash
 pebble-remove 0 $1
-ant logs
 sleep 2
 pebble-install-log $1

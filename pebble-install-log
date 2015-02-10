@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pebble install --phone $1
+sleep 2
+pebble logs --phone $1
