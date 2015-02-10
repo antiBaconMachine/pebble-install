@@ -1,0 +1,8 @@
+#!/bin/bash
+
+(pebble rm 0 --phone $1 || true) 
+ant logs
+sleep 2
+pebble install --phone $1 
+sleep 2
+pebble logs --phone $1
